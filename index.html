@@ -24,7 +24,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
   </head>
 
   <body>
@@ -57,10 +58,23 @@
             </li>
           </ul>
         </address>
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+      </svg>
+    </button>
+      </div>
+      <div class="mobile-menu ">
+        <div class="container mobile-menu-container"> 
+        <button class="mobile-menu-close">close</button>
+          <nav class="mobile-menu-nav">Navigation</nav>
+          <address>Address</address>
+          <div>Soc link</div>
+        </div>
       </div>
     </header>
 
-    <main>
+   
       <section class="section-main sekti-h">
         <div class="container conrainer-btn">
           <h1 class="h-section">Effective Solutions for Your Business</h1>
@@ -125,7 +139,7 @@
         </div>
       </section>
 
-      <section class="two-section">
+       <section class="two-section">
         <div class="container">
           <h2 class="our-team">Our Team</h2>
           <ul class="our">
@@ -307,7 +321,7 @@
           </ul>
         </div>
       </section>
-      <section class="six-pictures">
+      <!-- <section class="six-pictures">
         <div class="container">
           <h2 class="our-team our-portfolio-two">Our Portfolio</h2>
           <ul class="section-three">
@@ -435,10 +449,10 @@
             </li>
           </ul>
         </div>
-      </section>
-    </main>
+      </section> 
+    </main> --> 
 
-    <footer class="section-main footer">
+    <!-- <footer class="section-main footer">
       <div class="container footer-con">
         <div class="footer-info">
           <a class="logo footer-logo" href="./index.html"
@@ -506,23 +520,20 @@
           
           </form>
         </div>
-      </div>
+      </div> -->
     </footer>
     <!-- forma -->
-    <div class="backdrop">
-      <!-- Modal Container -->
+    <!-- <div class="backdrop">
       <div class="modol">
-        <!-- Close Button -->
         <button type="button" class="modol-close-btn">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
-        <!-- Modal Text -->
-        <p class="modol-text">Leave your contacts and we will call you back</p>
+        <p class="modol-text">Leave your contacts and we will call you back</p> -->
         <form>
-          <!-- Name Input Field -->
-          <div class="form-wrraper-cont">
+        
+          <!-- <div class="form-wrraper-cont">
             <label class="modal-form-labal" for="user-name">Name</label>
             <div class="modal-cont-input">
               
@@ -538,7 +549,6 @@
               </svg>
             </div>
           </div>
-          <!-- Phone Input Field -->
           <div class="form-wrraper-cont">
             <label class="modal-form-labal" for="user-tell">Phone</label>
             <div class="modal-cont-input">
@@ -554,7 +564,6 @@
               </svg>
             </div>
           </div>
-          <!-- Email Input Field -->
           <div class="form-wrraper-cont">
             <label class="modal-form-labal" for="user-email">Email</label>
             <div class="modal-cont-input">
@@ -570,7 +579,6 @@
               </svg>
             </div>
           </div>
-          <!-- Comment Textarea -->
           <div class="form-wrraper-cont-coment">
             <label class="modal-form-labal" for="user-comment">Comment</label>
             <textarea
@@ -580,7 +588,6 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <!-- Privacy Checkbox -->
           <div class="modal-cont-checkbox">
             <input
               type="checkbox"
@@ -599,10 +606,9 @@
               <a class="user-privacy-policy" href="#">Privacy Policy</a>
             </label>
           </div>
-          <!-- Submit Button -->
           <button class="modal-submid" type="submit">Send</button>
         </form>
-      </div>
-    </div>
+      </div> -->
+    </div> 
   </body>
 </html>

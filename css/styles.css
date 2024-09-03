@@ -812,7 +812,6 @@ height: 120px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   display: block;
-  margin-bottom: 72px;
   text-align: left;
   
 }
@@ -846,7 +845,7 @@ height: 120px;
 .icon-our-ti {
   display: flex;
   gap: 16px;
-  margin-bottom: 72px;
+ 
 }
 
 .images-iconik:hover,
@@ -867,6 +866,11 @@ height: 120px;
   margin-left: 0;
   flex-direction: column;
   align-items: center;
+}
+.footer-info {
+
+  margin-bottom: 72px;
+
 }
 
 .form-subscribe {
@@ -956,6 +960,7 @@ flex-direction: row;
 
 .footer-info {
   margin-right: 24px;
+  margin-bottom: 72px;
 
 }
 
@@ -982,7 +987,7 @@ flex-direction: row;
 }
 .footer-info {
   margin-right: 120px;
-  
+  margin-bottom: 0;
 } 
 .email-input-pole {
  opacity: 1;

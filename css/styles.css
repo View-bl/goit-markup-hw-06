@@ -828,6 +828,10 @@ height: 120px;
   align-items: center;
   text-align: center;
 }
+.social-mmedia {
+  margin-bottom: 72px;
+}
+
 
 .p-footer {
   display: flex;
@@ -944,6 +948,7 @@ flex-direction: row;
 
 .social-mmedia {
   justify-content: left;
+  margin: 0;
 }
 
 .email-input-pole {
@@ -984,6 +989,9 @@ flex-direction: row;
 }
 .footer-con {
     max-width: 1158px;
+}
+.social-mmedia {
+  margin: 0;
 }
 .footer-info {
   margin-right: 120px;

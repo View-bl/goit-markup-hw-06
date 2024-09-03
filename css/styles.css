@@ -56,6 +56,7 @@ button {
     max-width: 320px;
     padding: 0 16px;
     margin: 0 auto;
+   
 }
 @media screen and (min-width: 768px) {
     .container {
@@ -587,6 +588,7 @@ height: 120px;
 
 
   /*-----people---- */
+ 
 .two-section {
   background-color: #f4f4fd;
   padding-top: 96px;
@@ -616,14 +618,15 @@ height: 120px;
   border-radius: 0 0 4px 4px;
   background-color: #fff;
   text-align: center;
-
+  width: 264px;
+  margin: auto;
 }
 .img-ourteam:not(:last-child){
     margin-bottom: 72px;
   } 
+ 
 .people {
   display: block;
-margin: auto;
 }
 .cards {
   padding: 32px 0 32px;
@@ -979,6 +982,7 @@ flex-direction: row;
 }
 .footer-info {
   margin-right: 120px;
+  
 } 
 .email-input-pole {
  opacity: 1;
